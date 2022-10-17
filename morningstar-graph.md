@@ -55,7 +55,7 @@ Note: Duplicate cases were commented out to help simplify the diagram. See the r
 ```mermaid
 graph TD
     A[Morningstar] -->|pmbn| a[Morningstar]
-    A[Morningstar] -->|pmbn| ALegalName[Morningstar, Inc]
+    A[Morningstar] -->|legalName| ALegalName[Morningstar, Inc]
 
     B[PitchBook Workflow Tools] -->|iParent| A
     B -->|pmbn| b[PitchBook]
