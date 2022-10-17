@@ -50,6 +50,8 @@ order by ?topOrgSub ?topOrgPred ?childOrgSub ?childOrgPred
 
 ## Raw Input
 
+Note: Duplicate cases were commented out to help simplify the diagram. See the raw mermaid text for complete graph.
+
 ```mermaid
 graph TD
     A[Morningstar] -->|pmbn| a[Morningstar]
