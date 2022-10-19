@@ -53,7 +53,7 @@ order by ?topOrgSub ?topOrgPred ?childOrgSub ?childOrgPred
 Note: Duplicate cases were commented out to help simplify the diagram. See the raw mermaid text for complete graph.
 
 ```mermaid
-graph TD
+graph BT
     A[Morningstar] -->|pmbn| a[Morningstar]
     A[Morningstar] -->|legalName| ALegalName[Morningstar, Inc]
 
@@ -144,7 +144,7 @@ graph TD
 Note: Duplicate cases were commented out to help simplify the diagram. See the raw mermaid text for complete graph.
 
 ```mermaid
-graph TD
+graph BT
     TP[Morningstar] -->|legalName| TPLegalName(Morningstar, Inc)
 
     a[Morningstar] -->|hasCompany| TP
