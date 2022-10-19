@@ -145,7 +145,7 @@ Note: Duplicate cases were commented out to help simplify the diagram. See the r
 
 ```mermaid
 graph TD
-    TP[Morningstar] -->|legalName| TPLegalName[Morningstar, Inc]
+    TP[Morningstar] -->|legalName| TPLegalName(Morningstar, Inc)
 
     a[Morningstar] -->|hasCompany| TP
 
