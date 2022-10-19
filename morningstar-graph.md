@@ -54,28 +54,28 @@ Note: Duplicate cases were commented out to help simplify the diagram. See the r
 
 ```mermaid
 graph BT
-    A[Morningstar] -->|pmbn| a[Morningstar]
-    A[Morningstar] -->|legalName| ALegalName[Morningstar, Inc]
+    A[Morningstar] -->|pmbn| a(Morningstar)
+    A[Morningstar] -->|legalName| ALegalName(Morningstar, Inc)
 
     B[PitchBook Workflow Tools] -->|iParent| A
-    B -->|pmbn| b[PitchBook]
+    B -->|pmbn| b(PitchBook)
 
     %% Duplicate test case
     %% C[PitchBook Services] -->|iParent| A
     %% C -->|pmbn| b
 
     D[PitchBook Data Inc] -->|iParent| A
-    D -->|pmbn| d[PitchBook Data]
+    D -->|pmbn| d(PitchBook Data)
 
     %% Duplicate test case
     %% E[Morningstart Investment Services Inc] -->|iParent| A
-    %% E -->|pmbn| e[Morningstart Investment Services]
+    %% E -->|pmbn| e(Morningstart Investment Services)
 
     F[Morningstar Associates LLC] -->|iParent| A
-    F -->|pmbn| f[Morningstar Associates]
+    F -->|pmbn| f(Morningstar Associates)
 
     G[Hemscott data] -->|iParent| A
-    G -->|pmbn| g[Hemscott data]
+    G -->|pmbn| g(Hemscott data)
 
     %% Duplicate test case
     %% H[PitchBook Private Equity & Venture Capital Data] -->|iParent| D
