@@ -10,7 +10,7 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 construct {
   ?topOrgSub ?topOrgPred ?topOrgObj .
-  ?childOrgSub ?childOrgPred ?childOrdObj .
+  ?childOrgSub ?childOrgPred ?childOrgObj .
 }
 where {
   values ?topOrgSub {
@@ -34,7 +34,7 @@ where {
     ?childOrgSub
       rdf:type ibbeo:IbbOrganization ;
       ibbeo:hasImmediateParent+ ?topOrgSub ;
-      ?childOrgPred ?childOrdObj ;
+      ?childOrgPred ?childOrgObj ;
     .
     FILTER (
       ?childOrgPred IN (
